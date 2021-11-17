@@ -1,0 +1,85 @@
+ * {
+	font-family: 'Press Start 2P', cursive;
+	background-color: rgb(26, 25, 25)
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	color: rgb(233, 230, 230);
+	
+	
+}
+.son-music{
+	text-align: center;
+}
+ .container {
+	display:flex;
+	background-color:rgb(245, 230, 23);
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+} 
+.cont-child {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color:rgb(245, 230, 23);
+	
+}
+.scoreClass {
+	text-align: center;
+	background-color:rgb(245, 230, 23);
+}
+span {
+	background-color:rgb(245, 230, 23);
+}	
+.grid {
+	margin-bottom: 90px;
+	width: 200px;
+	height:400px;
+	display: flex;
+        flex-wrap: wrap;
+	background-color: rgb(48, 46, 46)
+}
+button {
+	font-size: 10px;
+	border-radius: 5px;
+	margin: 30px;
+	padding: 10px;
+	line-height:10px;
+	color: black;
+	background-color: white;
+}
+
+button:hover {
+	color: white;
+	background-color:black;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(245, 230, 23);
+}
+
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}

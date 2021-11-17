@@ -1,0 +1,14 @@
+/* cuerpo del juego */
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: #F5F7B2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
